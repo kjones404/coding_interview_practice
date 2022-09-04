@@ -24,7 +24,7 @@ function getNumber(n){
 
 function largestPalindrome(digits) {
     let max = 0;
-    let start= getNumber(digits)
+    let start= getNumber(digits);
     let finish = getNumber(digits-1);
     // start at highest number and work its way down against
     // the highest number
